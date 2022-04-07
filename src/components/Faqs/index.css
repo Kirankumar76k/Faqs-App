@@ -1,0 +1,27 @@
+/* Write your code here. */
+body {
+  margin: 0px;
+}
+.bg-container {
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  width: 1000px;
+}
+.heading {
+  color: #cb8805;
+  font-size: 42px;
+}
+.item-container {
+  list-style-type: none;
+}
